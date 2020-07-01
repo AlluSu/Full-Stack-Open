@@ -1,0 +1,7 @@
+title notes SPA new note
+Selain->Palvelin: POST https://fullstack-exa,pleapp.herokuapp.com/new_note_spa
+note right of  Palvelin:
+Statuskoodilla "201 CREATED" lähettämisen hoitaa Javascript-tiedostossa
+oleva koodi, eikä lomake.
+end note
+Palvelin->Selain: Palauttaa sivun (application/json)
