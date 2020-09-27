@@ -1,0 +1,19 @@
+{
+  "persons": [
+    {
+      "name": "brita suuronen",
+      "number": "044123456789",
+      "id": 7
+    },
+    {
+      "name": "susanna kontio",
+      "number": "04034084088",
+      "id": 8
+    },
+    {
+      "name": "aleksi Suuronen",
+      "number": "012312312",
+      "id": 9
+    }
+  ]
+}
