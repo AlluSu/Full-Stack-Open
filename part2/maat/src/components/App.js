@@ -8,14 +8,14 @@ const App = () => {
   const [ countries, setCountries ] = useState([])
 
   const filtered = countries.filter(country => country.name.toUpperCase().startsWith(searchCondition.toUpperCase()))
-
+  
   const showCountries = () => {
     if (filtered.length < 10) {
       if (filtered.length === 1) {
         return(
           <div>
             <h2>{filtered[0].name}</h2>
-            <div>
+            <div> 
             capital {filtered[0].capital}
             </div>
             <div>
@@ -57,11 +57,9 @@ const App = () => {
     })
   }, [])
 
-
   const handleSearch = (event) => {
     setSearchCondition(event.target.value)
   }
-
 
   return (
     <div>
@@ -74,9 +72,6 @@ const App = () => {
       </div>
       <div>
           {showCountries()}
-      </div>
-      <div>
-        <Weather country={searchCondition}/>
       </div>
     </div>
   )
